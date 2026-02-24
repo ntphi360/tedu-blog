@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace AppBlog.Core.Domain.Content
+namespace TeduBlog.Core.Domain.Content
 {
     [Table("PostActivityLogs")]
     public class PostActivityLog

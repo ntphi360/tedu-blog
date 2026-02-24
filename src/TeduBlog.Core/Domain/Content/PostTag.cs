@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace AppBlog.Core.Domain.Content
+namespace TeduBlog.Core.Domain.Content
 {
     [Table("PostTags")]
     [PrimaryKey(nameof(PostId), nameof(TagId))]

@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace AppBlog.Core.Domain.Content
+namespace TeduBlog.Core.Domain.Content
 {
     [Table("Posts")]
     [Index(nameof(Slug), IsUnique = true)] //Cluster index on Slug for faster lookups

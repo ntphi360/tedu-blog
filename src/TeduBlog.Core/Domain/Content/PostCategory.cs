@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace AppBlog.Core.Domain.Content
+namespace TeduBlog.Core.Domain.Content
 {
     [Table("PostCategories")]
     [Index(nameof(Slug), IsUnique = true)]

@@ -1,1 +1,6 @@
-<Solution />
+<Solution>
+  <Project Path="src/TeduBlog.Api/TeduBlog.Api.csproj" Id="ee5da84c-9279-46cf-95a9-c0e55bfb5dc5" />
+  <Project Path="src/TeduBlog.Core/TeduBlog.Core.csproj" Id="28a5cf84-cb91-47a3-8a47-a217a35f0f23" />
+  <Project Path="src/TeduBlog.Data/TeduBlog.Data.csproj" Id="055ee056-524e-4fac-9e69-229c72c86b1e" />
+  <Project Path="src/TeduBlog.WebApp/TeduBlog.WebApp.csproj" Id="bbfa6515-0954-4a88-abf3-741733ff3461" />
+</Solution>
