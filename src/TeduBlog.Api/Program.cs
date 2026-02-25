@@ -1,7 +1,9 @@
 using TeduBlog.Core.Domain.Identity;
-using TeduBlog.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using TeduBlog.Data;
+using TeduBlog.Api;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -57,5 +59,8 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+//Seeding Data
+app.MigrateDatabase();
 
 app.Run();
